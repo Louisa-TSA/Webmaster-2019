@@ -1,0 +1,7 @@
+baseURL = "https://ralakus.github.io"
+languageCode = "en-us"
+title = "That Webmaster Site"
+
+[params]
+    website = "http://localhost:1313/"
+    text = "Hello world!"
