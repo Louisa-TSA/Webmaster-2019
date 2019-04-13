@@ -1,0 +1,11 @@
+
+<div class="row">
+    <div class="logo">
+        <a href="{{ "index.html" | absURL }}"><img src={{ .Site.Params.logo | absURL }}></a>
+    </div>
+    <ul class="main-nav">
+        {{ range .Site.Menus.nav }}
+            <li><a href="{{ .URL | absURL }}"> {{ .Name }} </a></li>
+        {{ end }}
+    </ul>
+</div>

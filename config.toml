@@ -1,7 +1,23 @@
 baseURL = "https://ralakus.github.io"
 languageCode = "en-us"
-title = "That Webmaster Site"
+title = "Louisa TSA"
+theme = "tsa"
 
 [params]
-    website = "http://localhost:1313/"
-    text = "Hello world!"
+    text = "Technology <br> &nbsp;&nbsp;&nbsp;&nbsp; Student <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Association"
+    logo = "images/LCHSTSA.png"
+
+[[menu.nav]]
+    name = "HOME"
+    url = "index.html"
+    weight = 1
+
+[[menu.nav]]
+    name = "CTE"
+    url = "/pages/cte/"
+    weight = 2
+
+[[menu.nav]]
+    name = "ABOUT"
+    url = "/pages/about/"
+    weight = 3
